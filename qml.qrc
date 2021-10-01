@@ -4,6 +4,5 @@
         <file>TileFifteen.qml</file>
         <file>GameBoard.qml</file>
         <file>BackgroundAnimatedGradient.qml</file>
-        <file>PopupMessage.qml</file>
     </qresource>
 </RCC>
