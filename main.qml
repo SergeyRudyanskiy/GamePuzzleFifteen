@@ -3,8 +3,26 @@ import QtQuick.Window 2.12
 import QtQuick.Controls 2.12
 
 ApplicationWindow {
-    width: 640
-    height: 480
+    id: root
     visible: true
-    title: qsTr("Hello World")
+
+    width: 320
+    height: 580
+
+    title: qsTr("GamePuzzleFifteen")
+
+    background: BackgroundAnimatedGradient {
+        anchors.fill: parent
+    }
+
+    //header:{}
+
+    contentData: GameBoard {
+        anchors.centerIn: parent
+
+        width:  size - (size * 0.05)
+        height:  size - (size * 0.05)
+    }
+
+    //footer: {}
 }
